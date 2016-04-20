@@ -1,0 +1,745 @@
+﻿/******************************************Body*****************************************************/
+body
+{
+	width: auto;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-image: url('images/bodybackgd.png');
+	font-family:Helvetica, Arial, Trebuchet MS;
+	font-size: 10pt;
+}
+/***************************************************************************************************/
+/******************************************Alert****************************************************/
+.cpnlAlertInfoHeader
+{
+	background-color: #3399cc;
+	font-size: 10pt;
+	cursor: pointer;
+	width: 350px;
+	height: 15px;
+	padding: 1px;
+}
+.cpnlAlertInfoBody
+{
+	background-color: #FFEFD5;
+	font-family: Helvetica, Arial, Trebuchet MS;
+	font-size: 10pt;
+	border: 2px gray;
+	width: 350px;
+	height: 100px;
+	padding: 1px;
+	padding-top: 1px;
+}
+.imgAlertInfo
+{
+	background-image: url(Images/Alert.jpg);
+	width: 50px;
+	height: 50px;
+	border: none;
+	background-repeat: no-repeat;
+} 
+.lblAlertInfo
+{
+	height:15px;
+	font-family:Helvetica, Arial, Trebuchet MS;
+	font-size:10pt;
+	color:Black;
+}
+.cpnlAlertErrorHeader
+{
+	background-color: #ffb396;
+	font-family: Helvetica, Arial, Trebuchet MS;
+	font-size: 10pt;
+	cursor: pointer;
+	width: 350px;
+	height: 15px;
+	padding: 1px;
+}
+.cpnlAlertErrorBody
+{
+	background-color: #FFF0F5;
+	font-family: Helvetica, Arial, Trebuchet MS;
+	font-size: 10pt;
+	border: 2px gray;
+	width: 350px;
+	height: 100px;
+	padding: 1px;
+	padding-top: 1px;
+}
+.imgAlertError
+{
+	background-image: url(Images/Error.jpg);
+	width:50px;
+	height:50px;
+	border:none;
+	background-repeat:no-repeat;
+}
+.imgLogin
+{
+	width: 100%;
+	height:100%;
+	background-position:center;
+	background-repeat: no-repeat;
+}
+.lblAlertError
+{
+	width:auto;
+	white-space:nowrap;
+	height:15px;
+	font-family:Helvetica, Arial, Trebuchet MS;
+	font-size:10pt;
+	color:Red;
+}
+/***************************************************************************************************/
+/******************************************Text Box*************************************************/
+.txt
+{
+	height:17px;
+	border: 1px solid;
+	border-color:#CC6600;
+	font-family:"Arial CE";
+	font-size:10pt;
+	color:Black;
+}
+.txtNumeric
+{
+	height:15px;
+	font-family:Helvetica, Arial, Trebuchet MS;
+	font-size:10pt;
+	color:Blue;
+	text-align:right;
+	direction:ltr;
+}
+.txtDifference
+{
+	height:15px;
+	font-family:Helvetica, Arial, Trebuchet MS;
+	font-size:10pt;
+	background-color:#D16587;
+	color:White;
+}
+.txtNumericDifference
+{
+	height:15px;
+	font-family:Helvetica, Arial, Trebuchet MS;
+	font-size:10pt;
+	background-color:#D16587;
+	color:White;
+	direction:rtl;
+}
+.txtInvisible
+{
+	height:15px;
+	width:1px;
+	visibility:hidden;
+	margin-left: 16px;
+}
+.mltxt
+{
+	height:30px;
+	font-family:Helvetica, Arial, Trebuchet MS;
+	font-size:10pt;
+	color:Blue;
+}
+.mltxtforGL
+{
+	height:20px;
+	font-family:Helvetica, Arial, Trebuchet MS;
+	font-size:10pt;
+	color:Blue;
+}
+.notEnabled
+{
+	background-color:Silver;
+}
+.txtSlider
+{
+	color:White;
+	height:15px;
+	width:auto;
+}
+/***************************************************************************************************/
+/******************************************Label****************************************************/
+.lbl
+{
+	height:9px;
+	font-family:@BatangChe;
+	font-size:10pt;
+	color:Black;
+	white-space:nowrap;
+	text-transform:capitalize;
+}
+.lblNotification
+{
+	height:15px;
+	font-family:Helvetica, Arial, Trebuchet MS;
+	font-size:10pt;
+	color:Red;
+}
+.lblLogin
+{
+	height: 15px;
+	font-family: Helvetica, Arial, Trebuchet MS;
+	font-size: 10pt;
+	color: Black;
+	white-space: nowrap;
+}
+.lblUserInfo
+{
+	height: 14px;
+	font-family: Helvetica, Arial, Trebuchet MS;
+	font-size: 9pt;
+	font-weight: bold;
+	color: White;
+	white-space: nowrap;
+}
+.lblHeaderUserInfo
+{
+	height: 15px;
+	font-family: Helvetica, Arial, Trebuchet MS;
+	font-size: 9pt;
+	font-weight:bold;
+	color: White;
+	white-space: nowrap;
+	text-transform:capitalize;
+}
+.lblUserInsInfo
+{
+	height: 16px;
+	font-family: Helvetica, Arial, Trebuchet MS;
+	font-size: 16pt;
+	font-weight: bold;
+	color: White;
+	white-space: nowrap;
+}
+.lblError
+{
+	height:15px;
+	font-family:Helvetica, Arial, Trebuchet MS;
+	font-size:10pt;
+	color:Red;
+}
+.lblHeader
+{
+	height: 22px;
+	font-family: Eras Bold ITC;
+	font-size: 13pt;
+	color:#8B2323;
+	white-space:nowrap;
+	text-transform:uppercase;
+}
+.lblSubHeading
+{
+	height: 15px;
+	font-family: Helvetica, Arial, Trebuchet MS;
+	font-size: 10pt;
+	color: #ff4800;
+	white-space:nowrap;
+	text-transform:capitalize;
+}
+.lblcpnlHeader
+{
+	font-family: Helvetica, Arial, Trebuchet MS;
+	font-size: 10pt;
+	font-weight:bold;
+	height:10pt;
+	width:10pt;
+	color: buttontext;
+	border-width:1pt;
+	border-color:Black;
+	white-space:nowrap;
+}
+.lblCurrentPage
+{
+	height: 15px;
+	font-family: Helvetica, Arial, Trebuchet MS;
+	font-size: 9pt;
+	color: white;
+	white-space: nowrap;
+}
+/***************************************************************************************************/
+/******************************************Layer****************************************************/
+.layer
+{
+	background-image: url('images/menubackgd.png');
+	font-family:Helvetica, Arial, Trebuchet MS;
+	font-size:10pt;
+	color:Red;
+}
+/***************************************************************************************************/
+/******************************************Drop Down List*******************************************/
+.ddl
+{
+	height:22px;
+	font-family:Helvetica, Arial, Trebuchet MS;
+	font-size:10pt;
+	color:Black;
+}
+/***************************************************************************************************/
+/*************************************************Button********************************************/
+.btn
+{
+	background-color:#8A2E2E;
+	border-color:Silver;
+	font-weight: bold;
+	font-family: Helvetica, Arial, Trebuchet MS;
+	font-size: 10pt;
+	color: White;
+    height: 26px;
+}
+.clickedbtn
+{
+	background-color: #ffa500;
+	border-color: Silver;
+	color: White;
+	font-weight: bold;
+	font-family: Helvetica, Arial, Trebuchet MS;
+	font-size: 10pt;
+}
+.btnCalendar
+{
+	background-image: url(Images/calendar.jpg);
+	width: 18px;
+	height: 18px;
+	border: none;
+}
+/***************************************************************************************************/
+/*************************************************Link Button***************************************/
+.lbtn
+{
+	/*background-color: #3366cc;
+	border-color:Silver;*/
+	color:Black;
+	font-family:Helvetica, Arial, Trebuchet MS;
+	font-size:10pt;
+	white-space:nowrap;
+}
+.lbtngv
+{
+	/*background-color: #3366cc;
+	border-color:Silver;*/
+	color:Red;
+	font-family:Helvetica, Arial, Trebuchet MS;
+	font-size:10pt;
+	white-space:nowrap;
+}
+.lbtnNavigation
+{
+	border-style:solid;
+	border-width:1pt;
+	width:8pt;
+	height:6pt;
+	background-color: #FFFAF0;
+	color: Black;
+	font-family: Helvetica, Arial, Trebuchet MS;
+	font-size: 10pt;
+	font-weight:bold;
+	text-align:center;
+	text-decoration:none;
+	white-space:nowrap;
+}
+/***************************************************************************************************/
+/*************************************************Hyper Link***************************************/
+.hyp
+{
+	color:White;
+	text-decoration:underline;
+	font-family:Helvetica, Arial, Trebuchet MS;
+	font-weight: bold;
+	font-size:9pt;
+}
+.hypHeader
+{
+	background-color: #990033;
+	border-color: Silver;
+	color: White;
+	text-decoration: underline;
+	font-family: Helvetica, Arial, Trebuchet MS;
+	font-size: 10pt;
+	font-weight: bolder;
+}
+/***************************************************************************************************/
+/*************************************************Image Button**************************************/
+.imgbtnFirst
+{
+	background-image: url(Images/BLE.jpg);
+	width: 18px;
+	height: 18px;
+	border: none;
+}
+.imgbtnPrevious
+{
+	background-image: url(Images/BL.jpg);
+	width: 18px;
+	height: 18px;
+	border: none;
+}
+.imgbtnNext
+{
+	background-image: url(Images/BR.jpg);
+	width: 18px;
+	height: 18px;
+	border: none;
+}
+.imgbtnLast
+{
+	background-image: url(Images/BRE.jpg);
+	width: 18px;
+	height: 18px;
+	border: none;
+}
+.imgbtnPlusMinus
+{
+	width: 14px;
+	height: 14px;
+	border: none;
+}
+.imgbtnClose
+{
+	background-image: url(Images/close.png);
+	width: 14px;
+	height: 14px;
+	border: none;
+}
+.imgLogin
+{
+	width: 100%;
+}
+/***************************************************************************************************/
+/*************************************************Radio Button**************************************/
+.rbtn
+{
+	height:15px;
+	color: Black;
+	font-family: Helvetica, Arial, Trebuchet MS;
+	font-size: 10pt;
+	white-space:nowrap;
+}
+/***************************************************************************************************/
+/*************************************************Check Box**************************************/
+.chkbx
+{
+	color: Black;
+	font-family: Helvetica, Arial, Trebuchet MS;
+	font-size: 10pt;
+	white-space:nowrap;
+}
+/***************************************************************************************************/
+/******************************************Validators***********************************************/
+.vld
+{
+	font-family:Helvetica, Arial, Trebuchet MS;
+	font-size:9pt;
+	white-space:nowrap;
+	color:Maroon;
+}
+/***************************************************************************************************/
+/******************************************Header and footer****************************************/
+img.scaled 
+{
+  width: 100%;
+  height:100%
+}
+.Scaled
+{
+	width: 100%;
+	height:100%;
+}
+.FScaled
+{
+	width:100%;
+	height:100%;
+}
+/***************************************************************************************************/
+/**********************************************Title************************************************/
+.title
+{
+	font-family:Helvetica, Arial, Trebuchet MS;
+	font-size:x-large;
+	color:Black;
+}
+/***************************************************************************************************/
+/******************************************Collapsible panel****************************************/
+.cpnlHeader
+{
+	background-image: url('images/cpnlhdrbackgd.png');
+	font-family: Helvetica, Arial, Trebuchet MS;
+	font-size: 10pt;
+	cursor: pointer;
+	width: 99.9%;
+	height: 15px;
+	padding: 1px;
+}
+.cpnlBody
+{
+	background-image: url('images/cpnlbodybackgd.png');
+	font-family: Helvetica, Arial, Trebuchet MS;
+	font-size: 10pt;
+	border: 1px gray;
+	padding: 1px;
+	}
+.txnCpnlHeader
+{
+	background-color: #6699ff;
+	cursor: pointer;
+	width: 99.9%;
+	height: 15px;
+	padding: 1px;
+} 
+/***************************************************************************************************/
+/*************************************************Fieldset Legend***********************************/
+.lgnd
+{
+	font-family: Helvetica, Arial, Trebuchet MS;
+	font-size: 10pt;
+	white-space:nowrap;
+	color:Maroon;	
+}
+/**************************************************************************************************/
+/*************************************************Grid View*****************************************/
+.gv
+{
+	border:notset;
+	padding:1px;
+	width:100%;
+	font-family:Helvetica, Arial, Trebuchet MS;
+}
+.gvHeader
+{
+	height: 1pt;
+	text-align: center;
+	text-transform:capitalize;
+	width:inherit;
+	color:White;
+	white-space:nowrap;
+	background-color:#8b8682;
+}
+.gvRow
+{
+	color:Black;
+	height: 1pt;
+	white-space:nowrap;
+	
+}
+.gvRowPopUp
+{
+	color:Black;
+	height: 1pt;
+	
+}
+.gvAlternatingRow
+{
+	color:Black;
+	height:1pt;
+	white-space:nowrap;
+	background-color:#fff0f5;
+}
+.gvPager
+{
+	height: 1pt;
+	text-align: center;
+	color:#BC8F8F;
+	
+}
+.gvFooter
+{
+	height: 1pt;
+	text-align: left;
+	color: Maroon;
+	background-color: #BC8F8F;
+}
+.gvEmpty
+{
+	height: 1pt;
+	text-align: center;
+	color: Red;
+	background-color: #DCE4F9;
+}
+.gvSelectedRow
+{
+	color:Black;
+	white-space:nowrap;
+	background-color: Silver;
+}
+.gvRight
+{
+	text-align: right;
+}
+.gvUASelectedRow
+{
+	color: Black;
+	white-space: nowrap;
+	background-color: #DAA520;
+}
+.gvUARow
+{
+	color: Black;
+	white-space: nowrap;
+	background-color: White;
+}
+.gvFileInProcess
+{
+	color: Red;
+	white-space: nowrap;
+	background-color:#ccccff;
+}
+.gvFileInProcessCancel
+{
+	color: Red;
+	white-space: nowrap;
+	background-color:White;
+}
+
+
+.gvRecon
+{
+	border:notset;
+	padding:1px;
+	width:100%;
+	font-family:Helvetica, Arial, Trebuchet MS;
+}
+.gvReconRow
+{
+	color:Black;
+	height: 1pt;
+	white-space:nowrap;
+	background-color: #ccccff;
+}
+.gvReconAlternatingRow
+{
+	color:Black;
+	height:1pt;
+	white-space:nowrap;
+	background-color: #ccccff;
+}
+/***************************************************************************************************/
+/************************************************Menu***********************************************/
+.tv
+{
+	color:red;
+}
+.node
+{
+	color:Black
+;
+}
+.selected
+{
+	font-weight:bold;
+	color:Maroon; 
+ 
+}
+.hover
+{
+	color: orange;
+}
+/***************************************************************************************************/
+/******************************************Calender Extender****************************************/
+.cle
+{
+	font-family: Helvetica, Arial, Trebuchet MS;
+	font-size: 10pt;
+	color: Black;
+	background-color: Gray;
+	position: absolute;
+	white-space: nowrap;
+	visibility: visible;
+	display: block;
+	border-bottom: black thin solid;
+	border-left: black thin solid;
+	border-top: black thin solid;
+	border-right: black thin solid;
+}
+.cle .ajax__calendar_container   {
+    background-color: #e2e2e2; 
+    border:solid 1px #cccccc;
+}
+
+.cle  .ajax__calendar_header  {
+    background-color: #ffffff; 
+    margin-bottom: 4px;
+}
+
+.cle  .ajax__calendar_title,
+.cle .ajax__calendar_next,
+.cle .ajax__calendar_prev    {
+    color: #004080; 
+    padding-top: 3px;
+}
+
+.cle .ajax__calendar_body    {
+    background-color: #e9e9e9; 
+    border: solid 1px #cccccc;
+}
+
+.cle .ajax__calendar_dayname {
+    text-align:center; 
+    font-weight:bold; 
+    margin-bottom: 4px; 
+    margin-top: 2px;
+}
+
+.cle .ajax__calendar_day {
+    text-align:center;
+}
+/***************************************************************************************************/
+/****************************************Pop Up*****************************************************/
+/*
+.ModalPopupBG
+{
+	background-color: Silver;
+	filter: alpha(opacity=25);
+	opacity: 0.7;
+}
+
+.modalBackground 
+{
+    background-color:Olive; 
+    filter:alpha(opacity=70);
+    opacity:0.7; 
+} 
+*/
+
+.modalPopup 
+{
+    background-color:#ffffdd; 
+    border-width:3px; 
+    border-style:solid; 
+    border-color:Gray; 
+    padding:3px; 
+    width:250px; 
+}
+/***************************************************************************************************/
+/******************************************File Upload Window***************************************/
+.flupldWindow
+{
+	background-color:#BDEDFF; 
+	border:4px solid #00bfff;
+	border-style:ridge;
+}
+/***************************************************************************************************/
+/******************************************Div******************************************************/
+.txnDiv
+{
+	border-left-color:Blue;
+	border-top-color:Blue;
+	border-right-color:Blue;
+	border-bottom-color:Blue;
+	border-width:thin;
+	border-style:solid;
+	position:absolute;
+	top:50px;
+	left:50px;
+}
+.pnlDivAlert
+{
+	background-color: #6699ff;
+	cursor: move;
+	width:100%;
+	height:100%;
+}
+/***************************************************************************************************/
+
+
